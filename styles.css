@@ -176,6 +176,14 @@ label {
   gap: 5px;
 }
 
+.myTypes{
+  min-height: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
 .type {
   width: 66px;
   padding: 5px;
@@ -216,6 +224,19 @@ label {
 
 
 /* Special styling for Pokémon types */
+
+.pokemonCard{
+  background-color: var(--screen-background);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.75); */
+}
 
 .normal {
   background-color: #b7b7aa;
